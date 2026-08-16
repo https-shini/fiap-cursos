@@ -8,7 +8,7 @@
 | **Status** | ✅ Certificação concluída |
 | **Tentativas permitidas** | 2 |
 | **Tempo limite** | 1h40min |
-| **Data de envio** | Domingo, 16 de agosto de 2026, às 00h13 |
+| **Data de envio** | Domingo, 16 de agosto de 2026 |
 | **Período de disponibilidade** | 01/03/2020 a 31/12/2050 |
 
 > Certificado obtido com aproveitamento máximo na prova de certificação do curso **Linux Fundamentos**, oferecido pela FIAP ON.
