@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20andamento-yellow?style=for-the-badge" alt="status"/>
-  <img src="https://img.shields.io/badge/Cursos%20concluídos-1%20%2F%2024-2ea44f?style=for-the-badge" alt="cursos concluidos"/>
-  <img src="https://img.shields.io/badge/Carga%20horária%20total-≈1.700h-3178c6?style=for-the-badge" alt="carga horaria"/>
+  <img src="https://img.shields.io/badge/Cursos%20concluídos-1%20%2F%2028-2ea44f?style=for-the-badge" alt="cursos concluidos"/>
+  <img src="https://img.shields.io/badge/Carga%20horária%20total-1.820h-3178c6?style=for-the-badge" alt="carga horaria"/>
 </p>
 
 <p align="center">
@@ -13,13 +13,13 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-objetivos-de-aprendizagem">Objetivos</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#️-trilha-programática">Trilha</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-cursos-e-projetos">Cursos</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="trilha-de-estudos.md">Catálogo Completo</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-portfólio--do-curso-ao-projeto">Portfólio</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-convenção-de-estrutura">Convenção</a>
+  <a href="#%EF%B8%8F-convenção-de-estrutura">Convenção</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -71,6 +71,12 @@ Curso introdutório de **40h** (3 capítulos) sobre o sistema operacional Linux:
 - [ ] Cloud Fundamentals, Administration and Solution Architect (80h)
 - [ ] Cybersecurity (120h)
 
+### 🗺️ Catálogo completo
+
+A lista integral dos **28 cursos** disponíveis na plataforma — organizada por categoria oficial (Business, Cloud, Data Science, Design, Development, Innovation, Marketing, Security), com horas, capítulos e resumo de cada um — está em:
+
+👉 [**`trilha-de-estudos.md`** — Catálogo completo de cursos FIAP ON](trilha-de-estudos.md)
+
 ---
 
 ## 💼 Portfólio — do curso ao projeto
@@ -110,7 +116,7 @@ Cada curso concluído ganha sua própria pasta na raiz do repositório, seguindo
 
 ## 📄 Licença
 
-Distribuído sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais informações.
+Distribuído sob a **Licença MIT**. Veja o arquivo [`LICENSE`](LICENSE) para mais informações.
 
 > *Este repositório reúne, de forma organizada, as atividades, estudos, materiais e práticas desenvolvidos ao longo da trilha de estudos dos Nano Courses gratuitos da FIAP ON. Seu objetivo é servir como fonte de consulta e apoio ao aprendizado contínuo, contribuindo para o desenvolvimento profissional e a evolução da carreira.*
 
