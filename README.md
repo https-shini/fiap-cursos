@@ -13,20 +13,22 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-objetivos-de-aprendizagem">Objetivos</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-cursos-e-projetos">Cursos</a>
+  <a href="#-cursos">Cursos</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="trilha-de-estudos.md">Catálogo Completo</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-portfólio--do-curso-ao-projeto">Portfólio</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-convenção-de-estrutura">Convenção</a>
+  <a href="#️-arquitetura-do-repositório">Arquitetura</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="_templates">Templates</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
 ## 📖 Sobre este repositório
 
-Repositório dedicado ao registro dos **Nano Courses gratuitos da FIAP ON** (plataforma Eu Capacito), reunindo material oficial, resumos de estudo em Markdown, gabaritos comentados e certificados de cada curso concluído.
+Repositório dedicado ao registro dos **Nano Courses gratuitos da FIAP ON** (plataforma Eu Capacito), reunindo material oficial, conteúdo de estudo em Markdown, exercícios autorais, questionários finais e certificados de cada curso.
 
 O repositório documenta uma trilha de estudos cobrindo programação, infraestrutura, DevOps, cloud, segurança e dados — sempre com o objetivo de transformar cada certificado em algo publicável e demonstrável, não apenas em uma credencial isolada.
 
@@ -43,33 +45,25 @@ O repositório documenta uma trilha de estudos cobrindo programação, infraestr
 
 ---
 
-## 📊 Cursos e Projetos
+## 📊 Cursos
 
-### ✅ Concluídos
+| Curso | Status | Aulas | Horas |
+|---|---|---:|---:|
+| [Linux Fundamentos](Linux-Fundamentos/README.md) | Concluído | 3 | 40h |
+| [Python Development](Python-Development/README.md) | Em Andamento | 6 | 80h |
+| [Java Development](Java-Development/README.md) | Em Andamento | 6 | 60h |
+| [Cybersecurity](Cybersecurity/README.md) | Em Andamento | 11 | 120h |
 
-#### 📝 Linux Fundamentos
+"Não iniciado" reflete que o material oficial (PDFs) já está versionado na estrutura padrão, mas o conteúdo em Markdown de cada aula ainda não foi processado — ver o status detalhado no README de cada curso.
 
-Curso introdutório de **40h** (3 capítulos) sobre o sistema operacional Linux: terminal e comandos essenciais, gerenciamento de usuários e pacotes, manipulação de arquivos, administração de sistema, SSH, editor `vi`, gerenciamento de volumes, agendamento de tarefas (`cron`) e política de firewall (`iptables`).
+### 🔜 Próximos (em ordem de prioridade, após os quatro acima)
 
-<p>
-  <img src="https://img.shields.io/badge/Nota-100%2F100-2ea44f?style=flat-square" alt="nota"/>
-  <img src="https://img.shields.io/badge/Carga-40h-blue?style=flat-square" alt="carga"/>
-  <img src="https://img.shields.io/badge/Capítulos-3-informational?style=flat-square" alt="capitulos"/>
-</p>
-
-👉 [Acessar o conteúdo completo — Linux Fundamentos](Linux%20Fundamentos/conteudo.md) <br>
-👉 [Gabarito comentado e certificado](Linux%20Fundamentos/avaliacao.md)
-
-### 🔜 Próximos (em ordem de prioridade)
-
-- [ ] Python Development (80h)
 - [ ] DevOps & Agile Culture (60h)
 - [ ] Python (80h)
 - [ ] Learn to Program (60h)
 - [ ] Engenharia de Software (100h)
 - [ ] Gestão de Infraestrutura de TI (20h)
 - [ ] Cloud Fundamentals, Administration and Solution Architect (80h)
-- [ ] Cybersecurity (120h)
 
 ### 🗺️ Catálogo completo
 
@@ -89,7 +83,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 
 | Curso | Artefato de portfólio |
 |---|---|
-| Python Development | Script/CLI ou mini-API que resolva um problema real próprio. |
+| [Python Development](Python-Development/README.md) | Script/CLI ou mini-API que resolva um problema real próprio. |
 | Python | Segundo projeto prático explorando recursos diferentes do Development (ex.: manipulação de dados, testes). |
 | Learn to Program | Coleção de exercícios de lógica resolvidos, publicada como repositório de estudo. |
 
@@ -98,7 +92,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 | Curso | Artefato de portfólio |
 |---|---|
 | Engenharia de Software | Documentar um projeto existente (ex.: Portal-Receitas) com requisitos e diagramas. |
-| **Linux Fundamentos** ✅ | Este repositório: resumo consolidado + gabarito comentado + certificado. |
+| [**Linux Fundamentos**](Linux-Fundamentos/README.md) ✅ | Este repositório: conteúdo consolidado por aula + exercícios + questionário + certificado. |
 | Gestão de Infraestrutura de TI | Runbook/checklist de infraestrutura aplicado a um ambiente pessoal (home lab, VPS), publicado. |
 
 #### DevOps, Cloud e Segurança
@@ -107,24 +101,43 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 |---|---|
 | DevOps & Agile Culture | Pipeline CI/CD simples (GitHub Actions) documentado em repositório. |
 | Cloud Fundamentals, Administration and Solution Architect | Deploy de um projeto próprio numa cloud gratuita, com post curto explicando o processo. |
-| Cybersecurity | Resumo/anotação pública (LinkedIn ou blog) sobre boas práticas aplicadas. |
+| [Cybersecurity](Cybersecurity/README.md) | Resumo/anotação pública (LinkedIn ou blog) sobre boas práticas aplicadas. |
+
+> `Java Development` não integra as Fases 1–3 priorizadas, mas já tem estrutura criada por já possuir material oficial baixado.
 
 ---
 
-## 🗂️ Convenção de estrutura
+## 🏗️ Arquitetura do repositório
 
-Cada curso concluído ganha sua própria pasta na raiz do repositório, seguindo o padrão consolidado a partir de `Linux Fundamentos/`:
+Princípio estrutural: **Curso → Aula → Conteúdo + Exercícios**, com informações gerais e avaliação final centralizadas no nível do curso.
 
 ```
-<Nome do Curso>/
-├── <slug>-<capitulo>.pdf     # material oficial do curso (um PDF por capítulo/aula)
-├── conteudo.md                # conteúdo consolidado dos capítulos em Markdown
-├── avaliacao.md                # gabarito comentado da prova + resultado
-└── certificado.png             # imagem do certificado emitido pela FIAP
+<curso-em-kebab-case>/
+├── README.md               # índice e visão geral do curso
+├── questionario.md          # avaliação final autoral (10 questões novas, integrando as aulas)
+├── aula-01/
+│   ├── conteudo.md          # material de estudo consolidado da aula
+│   ├── exercicios.md        # exatamente 10 exercícios, dificuldade progressiva
+│   └── <slug>-01-<tema>.pdf # material oficial da aula
+├── aula-02/
+│   └── ...
+└── ...
 ```
 
-- `conteudo.md` reúne objetivos, conceitos principais, conteúdo por seção, exemplos práticos, cheat sheet de comandos/código, boas práticas e resumo — replicado por capítulo/aula do curso.
-- `avaliacao.md` traz o resultado da prova (nota, tentativas, tempo limite, data) e o gabarito comentado de cada questão, remetendo ao trecho correspondente em `conteudo.md`.
+- **Diretórios de curso** usam `kebab-case` sem espaços (ex.: `linux-fundamentos`), evitando os problemas de link com `%20` que a estrutura anterior apresentava.
+- **Diretórios de aula** seguem `aula-01`, `aula-02`, ... com zero à esquerda, garantindo ordenação lexicográfica correta mesmo além de 10 aulas.
+- **`README.md`** de cada curso funciona como índice: descrição, objetivos, pré-requisitos, lista de aulas com links, orientações de estudo.
+- **`conteudo.md`** de cada aula reúne teoria, exemplos, cheat sheet/aplicações práticas, boas práticas e um resumo — seções usadas conforme a relevância para o conteúdo, sem preencher artificialmente.
+- **`exercicios.md`** de cada aula contém exatamente 10 exercícios com dificuldade progressiva (fácil → difícil), exclusivos ao conteúdo daquela aula.
+- **`questionario.md`**, no nível do curso, é uma avaliação final nova e independente dos exercícios de cada aula, com foco em integração entre aulas e resolução de problemas.
+
+### Exceção justificada: `avaliacao-oficial.md`
+
+Cursos que possuem uma **prova de certificação oficial já realizada** na plataforma (com nota, tentativas e certificado real) preservam esse registro em `avaliacao-oficial.md`, no nível do curso, além do `questionario.md`. São documentos de natureza diferente — um é um registro histórico de credencial externa; o outro é uma avaliação de estudo autoral — e por isso não foram fundidos. Hoje só `Linux-Fundamentos/` tem esse arquivo; qualquer curso futuro que inclua uma prova oficial similar deve seguir o mesmo padrão.
+
+### Templates
+
+Os quatro arquivos reutilizáveis (`README.md`, `conteudo.md`, `exercicios.md`, `questionario.md`) têm modelos genéricos em [`_templates/`](_templates), usados como ponto de partida ao criar um curso ou aula nova, sem exigir decisões estruturais adicionais.
 
 ---
 
