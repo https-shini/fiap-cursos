@@ -52,7 +52,7 @@ O repositório documenta uma trilha de estudos cobrindo programação, infraestr
 | [Linux Fundamentos](./linux-fundamentos/README.md) | Concluído | 3 | 40h |
 | [Python Development](./python-development/README.md) | Em Andamento | 6 | 80h |
 | [Java Development](./java-development/README.md) | Em Andamento | 6 | 60h |
-| [Cybersecurity](./cybersecurity/README.md) | Em Andamento | 11 | 120h |
+| [Cybersecurity](./cybersecurity/README.md) | Concluído | 11 | 120h |
 
 "Não iniciado" reflete que o material oficial (PDFs) já está versionado na estrutura padrão, mas o conteúdo em Markdown de cada aula ainda não foi processado — ver o status detalhado no README de cada curso.
 
