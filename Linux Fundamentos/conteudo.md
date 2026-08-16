@@ -1,25 +1,46 @@
-# Documentação Completa do Curso — Linux Fundamentos (FIAP)
+<h1 align="center">🐧 Linux Fundamentos — FIAP ON</h1>
 
-> Documento consolidado a partir do material didático disponível no repositório [`fiap-cursos/Linux Fundamentos`](https://github.com/https-shini/fiap-cursos), contendo os três capítulos do curso: Introdução e primeiros comandos, Administração de sistema e editor de texto, e Recursos avançados.
+<p align="center">
+  <a href="https://github.com/https-shini/fiap-cursos">Home</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aula-01--introdução-e-primeiros-comandos">Aula 01</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aula-02--administração-de-sistema-e-editor-de-texto">Aula 02</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aula-03--recursos-avançados">Aula 03</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-visão-geral-do-curso">Visão Geral</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="Avalicao.md">Avaliação</a>
+</p>
 
-## Sumário
-- [Aula 01 — Introdução e Primeiros Comandos](#aula-01--introdução-e-primeiros-comandos)
-- [Aula 02 — Administração de Sistema e Editor de Texto](#aula-02--administração-de-sistema-e-editor-de-texto)
-- [Aula 03 — Recursos Avançados](#aula-03--recursos-avançados)
-- [Visão Geral do Curso](#visão-geral-do-curso)
+## 📖 Sobre este documento
 
----
-
-# Aula 01 — Introdução e Primeiros Comandos
+Documentação consolidada a partir do material didático oficial do curso **Linux Fundamentos** (FIAP ON), reunindo os três capítulos disponíveis em PDF neste diretório em um único guia de estudo em Markdown — com conceitos, comandos, exemplos práticos e boas práticas de cada aula.
 
 **Disciplina:** Linux Fundamentos
 **Instituição:** FIAP ON
 
-## Objetivos
+## 📎 Arquivos desta pasta
+
+- `Linux - 1 - Introdução e primeiros comandos_RevFinal.pdf` — material oficial da Aula 01
+- `Linux - 2 - Administração de sistema e editor de texto_RevFinal.pdf` — material oficial da Aula 02
+- `Linux - 3 - Recursos avançados_RevFinal.pdf` — material oficial da Aula 03
+- `Conteudo.md` — este documento, com o conteúdo consolidado das três aulas
+- `Avalicao.md` — gabarito comentado e resultado da prova de certificação
+
+---
+
+# 📝 Aula 01 — Introdução e Primeiros Comandos
+
+**Disciplina:** Linux Fundamentos
+**Instituição:** FIAP ON
+
+## 🎯 Objetivos
 
 Introduzir o aluno ao terminal de comandos do Linux, justificando sua relevância mesmo em um mundo dominado por interfaces gráficas, e apresentar o conjunto de comandos essenciais para operar o sistema: comandos administrativos básicos, gerenciamento de usuários, manipulação de arquivos e diretórios, e configuração de rede.
 
-## Conceitos Principais
+## 🧩 Conceitos Principais
 
 - Por que o terminal de comandos continua relevante na administração de sistemas
 - Diferenças entre distribuições Linux e terminais (shells)
@@ -29,7 +50,7 @@ Introduzir o aluno ao terminal de comandos do Linux, justificando sua relevânci
 - A árvore de diretórios do Linux e comandos de manipulação de arquivos
 - Compactação, download e configuração básica de rede
 
-## Conteúdo da Aula
+## 📚 Conteúdo da Aula
 
 ### 1. Por que aprender comandos em um mundo de interfaces gráficas?
 
@@ -434,7 +455,7 @@ nmap --all-ports -sV 127.0.0.1          # escaneia todas as portas e identifica 
 >
 > Informações obtidas via nmap (como a versão exata do OpenSSH) podem ser usadas por um atacante para identificar vulnerabilidades conhecidas (*exploits*) em versões desatualizadas. Por isso, **desligar serviços não utilizados** e manter softwares atualizados são medidas importantes de segurança.
 
-## Exemplos Práticos
+## 💡 Exemplos Práticos
 
 | Cenário | Comando |
 |---|---|
@@ -453,7 +474,7 @@ nmap --all-ports -sV 127.0.0.1          # escaneia todas as portas e identifica 
 | Alterar IP de uma interface | `sudo ifconfig enp0s3 IP netmask MASCARA` |
 | Escanear portas com detalhamento | `sudo nmap --all-ports -sV IP` |
 
-## Comandos e Código
+## 💻 Comandos e Código \(Cheat Sheet\)
 
 ```bash
 # Ajuda
@@ -503,7 +524,7 @@ route add default gw <GATEWAY>
 nmap --all-ports -sV <IP>
 ```
 
-## Boas Práticas e Pontos de Atenção
+## ⚠️ Boas Práticas e Pontos de Atenção
 
 - Preferir `sudo` a `su` para operações administrativas pontuais, minimizando o tempo em que o usuário opera com privilégios totais.
 - Sempre usar `-aG` (não `-G`) com `usermod` para adicionar usuários a grupos sem removê-los dos grupos já existentes.
@@ -513,23 +534,23 @@ nmap --all-ports -sV <IP>
 - Realizar escaneamento de portas apenas em ambientes próprios ou autorizados.
 - Lembrar que o Linux é case-sensitive em todos os comandos, argumentos e nomes de arquivos.
 
-## Resumo da Aula
+## 📌 Resumo da Aula
 
 Esta aula introdutória apresentou a justificativa para o domínio do terminal Linux, mesmo em cenários com interface gráfica disponível, e forneceu a base de comandos essenciais para operação do sistema: obtenção de ajuda (`man`, `--help`), troca e elevação de privilégios (`su`, `sudo`), gerenciamento de pacotes (`apt`), gerenciamento de usuários e grupos (`passwd`, `useradd`, `groupadd`, `usermod`), navegação e manipulação do sistema de arquivos (`ls`, `pwd`, `cd`, `mkdir`, `rm`, `cp`, `mv`, `cat`, `head`, `tail`, `less`, `locate`, `grep`), compactação e transferência de arquivos (`unzip`, `tar`, `wget`) e configuração básica de rede (`ifconfig`, `route`, `nmap`). Esses comandos formam a base sobre a qual as aulas seguintes constroem tópicos mais avançados de administração.
 
 ---
 
-# Aula 02 — Administração de Sistema e Editor de Texto
+# 📝 Aula 02 — Administração de Sistema e Editor de Texto
 
 **Disciplina:** Linux Fundamentos
 **Autor do material:** Filipi Pires
 **Instituição:** FIAP ON
 
-## Objetivos
+## 🎯 Objetivos
 
 Aprofundar o conhecimento em administração de sistemas Linux por meio do gerenciamento de processos, do acesso remoto seguro via SSH e do domínio do editor de texto em linha de comando **vi**, ferramenta essencial para edição de arquivos de configuração em servidores sem interface gráfica.
 
-## Conceitos Principais
+## 🧩 Conceitos Principais
 
 - Processos: o que são, como monitorá-los e como encerrá-los
 - Execução de comandos em primeiro e segundo plano (*foreground*/*background*)
@@ -538,7 +559,7 @@ Aprofundar o conhecimento em administração de sistemas Linux por meio do geren
 - Reforço de segurança do serviço SSH
 - Fundamentos do editor de texto **vi**: modos de operação, edição, navegação, cópia/colagem, busca e substituição
 
-## Conteúdo da Aula
+## 📚 Conteúdo da Aula
 
 ### 1. Gerenciamento de Processos
 
@@ -839,7 +860,7 @@ Os comandos de exclusão seguem a mesma lógica dos de cópia, substituindo `y` 
 | `g` | *Global* — substitui **todas** as ocorrências na linha (sem ele, apenas a primeira de cada linha) |
 | `c` | *Confirm* — pede confirmação antes de cada substituição (sem ele, troca tudo automaticamente) |
 
-## Exemplos Práticos
+## 💡 Exemplos Práticos
 
 | Cenário | Comando |
 |---|---|
@@ -857,7 +878,7 @@ Os comandos de exclusão seguem a mesma lógica dos de cópia, substituindo `y` 
 | Salvar e sair do vi | `:x` |
 | Substituir todas ocorrências no vi | `:%s/antigo/novo/gc` |
 
-## Comandos e Código
+## 💻 Comandos e Código \(Cheat Sheet\)
 
 ```bash
 # Processos
@@ -897,7 +918,7 @@ vi arquivo.txt
 # Substituir: :%s/antigo/novo/gc
 ```
 
-## Boas Práticas e Pontos de Atenção
+## ⚠️ Boas Práticas e Pontos de Atenção
 
 - Preferir `sudo kill`/`killall` apenas quando o processo pertencer a outro usuário — se for o processo do próprio usuário, `sudo` é desnecessário.
 - Usar `kill -SIGSTOP`/`-SIGCONT` para liberar recursos temporariamente em vez de encerrar (e perder) processos longos.
@@ -908,23 +929,23 @@ vi arquivo.txt
 - No vi, sempre confirmar em qual modo se está (comando ou edição) antes de navegar com as setas, para evitar poluir o documento com caracteres indesejados.
 - Lembrar que `u` desfaz **apenas o último** comando no vi — não há histórico de múltiplos "undos" nesta versão básica apresentada.
 
-## Resumo da Aula
+## 📌 Resumo da Aula
 
 A aula cobriu três frentes complementares da administração prática de sistemas Linux: o **gerenciamento de processos** (visualização com `ps`/`top`, encerramento com `kill`/`killall`, execução em segundo plano com `&` e terminais persistentes com `screen`); o **acesso remoto seguro** via **SSH**, incluindo transferência de arquivos com `scp`, configuração de atalhos de host e boas práticas de reforço de segurança; e o domínio do **editor vi**, essencial para editar arquivos de configuração diretamente em servidores remotos, cobrindo seus dois modos de operação, salvamento, navegação, cópia/colagem, exclusão e busca/substituição de texto.
 
 ---
 
-# Aula 03 — Recursos Avançados
+# 📝 Aula 03 — Recursos Avançados
 
 **Disciplina:** Linux Fundamentos
 **Autor do material:** Henrique Poyatos
 **Instituição:** FIAP ON
 
-## Objetivos
+## 🎯 Objetivos
 
 Aprofundar o conhecimento sobre administração do sistema operacional Linux nos eixos de **gerenciamento de volumes de armazenamento**, **agendamento de tarefas** e **política de firewall**, incluindo a técnica avançada de segurança conhecida como *port-knocking*.
 
-## Conceitos Principais
+## 🧩 Conceitos Principais
 
 - Volumes, partições e sistemas de arquivos
 - Ferramentas de linha de comando: `fdisk`, `mkfs`, `mount`, `umount`, `fsck`
@@ -933,7 +954,7 @@ Aprofundar o conhecimento sobre administração do sistema operacional Linux nos
 - Firewall com `iptables`: correntes (*chains*), ações e parâmetros
 - Segurança adicional por meio de *port-knocking* com o serviço `knockd`
 
-## Conteúdo da Aula
+## 📚 Conteúdo da Aula
 
 ### 1. Gerenciamento de Volumes
 
@@ -1315,7 +1336,7 @@ O `knockd` também pode **fechar** a porta automaticamente com a sequência inve
 
 > **Recomendação**: alterar as portas padrão do exemplo (SSH de 22 para outra, em `/etc/ssh/sshd_config`; portas de knock de 7000/8000/9000 para valores fora do padrão), pois são as primeiras que um atacante tentará.
 
-## Exemplos Práticos
+## 💡 Exemplos Práticos
 
 | Cenário | Comando/Procedimento |
 |---|---|
@@ -1330,7 +1351,7 @@ O `knockd` também pode **fechar** a porta automaticamente com a sequência inve
 | Bloquear porta 80 | `iptables -A INPUT ... --dport 80 -j REJECT` |
 | Liberar SSH após knock | `knockd` + `iptables -I INPUT ... --dport 22 -j ACCEPT` |
 
-## Comandos e Código
+## 💻 Comandos e Código \(Cheat Sheet\)
 
 ```bash
 # Volumes e partições
@@ -1361,7 +1382,7 @@ sudo /etc/init.d/knockd start
 nmap <IP> -p <porta>
 ```
 
-## Boas Práticas e Pontos de Atenção
+## ⚠️ Boas Práticas e Pontos de Atenção
 
 - Confirmar sempre o disco correto antes de particionar com `fdisk` — a operação é destrutiva.
 - Usar **UUID** (ou LABEL) em vez do nome `/dev/sdX` no `/etc/fstab`, já que a numeração pode mudar entre boots.
@@ -1373,15 +1394,15 @@ nmap <IP> -p <porta>
 - Cuidado com regras de firewall baseadas em IP dinâmico: uma mudança de IP pode bloquear o próprio administrador.
 - Testar sempre em ambiente controlado (VM) antes de aplicar regras de firewall em produção.
 
-## Resumo da Aula
+## 📌 Resumo da Aula
 
 Esta aula consolidou três pilares da administração avançada de Linux: **gerenciamento de volumes** (particionamento com `fdisk`, formatação com `mkfs`, montagem manual/automática e verificação de integridade com `fsck`); **agendamento de tarefas** com `cron`/`crontab`, incluindo a sintaxe de seis campos e as alternativas simplificadas via `/etc/cron.*`; e **segurança de rede** com `iptables` (correntes, ações, ordem crítica das regras) reforçada pela técnica de **port-knocking** via `knockd`.
 
 ---
 
-# Visão Geral do Curso
+# 🌐 Visão Geral do Curso
 
-## Principais Conceitos
+## 🧠 Principais Conceitos
 
 O curso **Linux Fundamentos** (FIAP) constrói, ao longo de três aulas, uma trilha progressiva de competências para administração de sistemas Linux:
 
@@ -1389,7 +1410,7 @@ O curso **Linux Fundamentos** (FIAP) constrói, ao longo de três aulas, uma tri
 2. **Aula 02** avança para administração operacional: controle de processos, acesso remoto seguro (SSH/SCP) e domínio do editor `vi`.
 3. **Aula 03** aprofunda em administração de infraestrutura: gerenciamento de armazenamento, automação de tarefas e segurança de rede (firewall e *port-knocking*).
 
-## Conexão entre os Conteúdos
+## 🔗 Conexão entre os Conteúdos
 
 Os três capítulos formam uma progressão coerente e cumulativa:
 
@@ -1400,7 +1421,7 @@ Os três capítulos formam uma progressão coerente e cumulativa:
 - **`sudo`, gerenciamento de usuários e permissões (Aula 01)** permeiam toda a Aula 03, já que operações de particionamento, montagem de volumes e configuração de firewall exigem privilégios de superusuário.
 - O documento **`/etc/init.d/<serviço> start`**, usado para subir o Apache (Aula 02) e o SSH (Aula 02), segue o mesmo padrão utilizado para subir o `knockd` na Aula 03, reforçando a familiaridade do aluno com o gerenciamento de serviços via *daemon*.
 
-## Conhecimentos Adquiridos
+## 🏆 Conhecimentos Adquiridos
 
 Ao concluir o curso, o estudante é capaz de:
 
@@ -1412,6 +1433,10 @@ Ao concluir o curso, o estudante é capaz de:
 - Automatizar tarefas recorrentes com `cron`/`crontab`.
 - Implementar e testar políticas de firewall com `iptables`, incluindo uma camada adicional de segurança com *port-knocking*.
 
-## Conclusão
+## ✅ Conclusão
 
 O curso Linux Fundamentos oferece uma base técnica sólida e progressiva para a administração de sistemas Linux em ambientes reais — desde a operação básica do terminal até a implementação de políticas avançadas de segurança de rede. A ênfase em exemplos práticos, executados em ambientes virtualizados (Oracle VirtualBox) e em provedores de nuvem (Digital Ocean) e hardware embarcado (Raspberry Pi), aproxima o conteúdo teórico da realidade profissional de administradores de sistemas, engenheiros de infraestrutura e profissionais de DevOps, formando um alicerce indispensável para tópicos futuros mais avançados de administração e segurança de sistemas Linux.
+
+---
+
+> *Este documento faz parte do repositório [`fiap-cursos`](https://github.com/https-shini/fiap-cursos), dedicado ao registro organizado dos materiais, resumos e avaliações dos cursos realizados na plataforma FIAP ON.*
