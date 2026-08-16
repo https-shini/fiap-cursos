@@ -19,7 +19,7 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-portfólio--do-curso-ao-projeto">Portfólio</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-convenção-de-estrutura">Convenção</a>
+  <a href="#-convenção-de-estrutura">Convenção</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -81,19 +81,33 @@ A lista integral dos **28 cursos** disponíveis na plataforma — organizada por
 
 ## 💼 Portfólio — do curso ao projeto
 
-Certificado sozinho não vira portfólio. A meta é sair de cada curso com algo publicável no GitHub:
+Certificado sozinho não vira portfólio. Esta tabela cobre apenas os **9 cursos das Fases 1–3** — o núcleo prioritário para a evolução de carreira (~640h). O catálogo completo, com ideias de artefato para os demais 19 cursos, está em [`trilha-de-estudos.md`](trilha-de-estudos.md).
+
+Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prioridade estratégica e o maior interesse pessoal. Por isso, receberão atenção especial: serão documentados em detalhe e estudados antes dos demais.
+
+#### Fase 1 — Fundamentos de programação
 
 | Curso | Artefato de portfólio |
 |---|---|
-| Linux Fundamentos ✅ | Este repositório: resumo consolidado + gabarito comentado + certificado. |
-| Python Development / Python | Script/CLI ou mini-API que resolva um problema real próprio. |
+| Python Development | Script/CLI ou mini-API que resolva um problema real próprio. |
+| Python | Segundo projeto prático explorando recursos diferentes do Development (ex.: manipulação de dados, testes). |
+| Learn to Program | Coleção de exercícios de lógica resolvidos, publicada como repositório de estudo. |
+
+#### Fase 2 — Engenharia e infraestrutura
+
+| Curso | Artefato de portfólio |
+|---|---|
 | Engenharia de Software | Documentar um projeto existente (ex.: Portal-Receitas) com requisitos e diagramas. |
+| **Linux Fundamentos** ✅ | Este repositório: resumo consolidado + gabarito comentado + certificado. |
+| Gestão de Infraestrutura de TI | Runbook/checklist de infraestrutura aplicado a um ambiente pessoal (home lab, VPS), publicado. |
+
+#### Fase 3 — DevOps, Cloud e Segurança
+
+| Curso | Artefato de portfólio |
+|---|---|
 | DevOps & Agile Culture | Pipeline CI/CD simples (GitHub Actions) documentado em repositório. |
-| Cloud Fundamentals | Deploy de um projeto próprio numa cloud gratuita, com post curto explicando o processo. |
+| Cloud Fundamentals, Administration and Solution Architect | Deploy de um projeto próprio numa cloud gratuita, com post curto explicando o processo. |
 | Cybersecurity | Resumo/anotação pública (LinkedIn ou blog) sobre boas práticas aplicadas. |
-| Big Data & Analytics / BI | Dashboard simples com dados públicos (Python + lib de visualização). |
-| Java Development | Recriar uma funcionalidade pequena de um projeto existente em Java. |
-| Design Thinking | Aplicar o método num case curto e documentar o processo. |
 
 ---
 
