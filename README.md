@@ -26,7 +26,7 @@ Curso introdutório de administração de sistemas Linux via terminal, cobrindo 
 2. **Administração de sistema e editor de texto** — gerenciamento de processos, acesso remoto via SSH/SCP, edição de arquivos com `vi`.
 3. **Recursos avançados** — gerenciamento de volumes e partições, agendamento de tarefas (`cron`), política de firewall com `iptables` e *port-knocking*.
 
-👉 [Acessar o conteúdo completo do curso.](<Linux Fundamentos/Conteudo.md>)
+👉 [Acessar o conteúdo completo do curso.](<Linux Fundamentos/Conteudo.md>) <br>
 👉 [Acessar o gabarito e resultado da prova de certificação.](<Linux Fundamentos/Avalicao.md>)
 
 **Resultado:** ✅ Certificação concluída — Nota 100,00 / 100,00
