@@ -23,7 +23,7 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-security">Security</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-resumo-geral">Resumo Geral</a>
+  <a href="#-resumo-geral">Resumo</a>
 </p>
 
 ---
