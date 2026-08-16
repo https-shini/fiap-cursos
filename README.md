@@ -110,6 +110,8 @@ Cada curso concluído ganha sua própria pasta na raiz do repositório, seguindo
 
 ## 📄 Licença
 
-Este repositório não possui licença formal definida até o momento. Uso recomendado apenas para fins de estudo e referência pessoal.
+Distribuído sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais informações.
+
+> *Este repositório reúne, de forma organizada, as atividades, estudos, materiais e práticas desenvolvidos ao longo da trilha de estudos dos Nano Courses gratuitos da FIAP ON. Seu objetivo é servir como fonte de consulta e apoio ao aprendizado contínuo, contribuindo para o desenvolvimento profissional e a evolução da carreira.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer" alt="footer"/>
