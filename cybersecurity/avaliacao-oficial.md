@@ -31,7 +31,7 @@ Este repositório reúne as **40 questões** da Prova de Certificação em **Cyb
 
 ## 🖼️ Certificado
 
-![Certificado — Cybersecurity](anexos/certificado.pdf)
+![Certificado — Cybersecurity](anexos/certificado.png)
 
 ---
 
