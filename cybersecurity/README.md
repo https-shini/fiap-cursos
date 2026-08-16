@@ -1,20 +1,28 @@
-# 🔐 Cybersecurity
+<h1 align="center">🔐 Cybersecurity</h1>
 
-[← Voltar ao índice do repositório](../README.md)
-
-**Plataforma:** FIAP ON — Eu Capacito · **Carga horária:** 120h · **Capítulos:** 11
-
-<p>
-  <img src="https://img.shields.io/badge/Status-N%C3%A3o%20iniciado-lightgrey?style=flat-square" alt="status"/>
+<p align="center">
+  <a href="../README.md">Início</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#descrição">Descrição</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#status-deste-curso">Status</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#estrutura-do-curso">Estrutura</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-avaliação-de-certificação">Avaliação</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#orientações-de-estudo">Orientações</a>
 </p>
 
 ## Descrição
-
+ 
 Segurança cibernética e proteção de sistemas contra vulnerabilidades, diante do crescimento de ameaças e ataques.
 
 ## Status deste curso
 
-⏳ **Estrutura criada, conteúdo pendente.** Os PDFs oficiais de todas as 11 aulas já estão versionados, cada um em sua pasta `aula-XX/` correspondente. A consolidação em Markdown (`conteudo.md` e `exercicios.md` de cada aula) e o [`questionario.md`](questionario.md) final ainda não foram produzidos.
+⏳ **Estrutura criada, conteúdo das aulas pendente.** Os PDFs oficiais de todas as 11 aulas já estão versionados, cada um em sua pasta `aula-XX/` correspondente. A consolidação em Markdown (`conteudo.md` e `exercicios.md` de cada aula) ainda não foi produzida.
+
+✅ **Avaliação de certificação já concluída** — nota 100/100, registrada em [`avaliacao-oficial.md`](avaliacao-oficial.md).
 
 ## Estrutura do curso
 
@@ -37,7 +45,19 @@ Cada aula contém (ou conterá, quando processada):
 - `exercicios.md` — 10 exercícios de fixação, com dificuldade progressiva.
 - o PDF oficial do capítulo correspondente.
 
+## 🏆 Avaliação de certificação
+
+| Item | Valor |
+|---|---|
+| **Documento** | [`avaliacao-oficial.md`](avaliacao-oficial.md) |
+| **Nota final** | 90,00 / 100,00 |
+| **Status** | ✅ Certificação concluída |
+| **Questões** | 40, com gabarito comentado por tema |
+
+> A avaliação oficial é um registro **histórico** da prova de certificação realizada na plataforma. Não deve ser confundida com um eventual [`questionario.md`](questionario.md) autoral, criado à parte para fins de estudo e revisão.
+
 ## Orientações de estudo
 
 - Siga a ordem das aulas — o material segue a sequência oficial do curso na FIAP ON.
 - Ao processar cada aula, use os templates em [`_templates/`](../_templates/) como referência de estrutura.
+- Antes de revisar o conteúdo por aula, vale usar o gabarito comentado de [`avaliacao-oficial.md`](avaliacao-oficial.md) como mapa dos temas mais cobrados na certificação.
