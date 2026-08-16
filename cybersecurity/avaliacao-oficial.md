@@ -1,10 +1,37 @@
-# 🔐 Cybersecurity — Material de Estudo
+<h1 align="center">📝 Avaliação Oficial — Prova de Certificação: Cybersecurity</h1>
 
-[Sobre](#-sobre-o-material) | [Conteúdo](#-conteúdo-programático) | [Questões](#-questões-e-alternativas) | [Gabarito](#-gabarito) | [Licença](#-licença)
+<p align="center">
+  <a href="../README.md">Home</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-material">Sobre</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-conteúdo-programático">Conteúdo</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-questões-e-alternativas">Questões</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-gabarito">Gabarito</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
 ## 📖 Sobre o material
 
 Este repositório reúne as **40 questões** da Prova de Certificação em **Cybersecurity**, organizadas para consulta e revisão. O objetivo é servir como material de estudo, agrupando enunciados, alternativas e o gabarito comentado por tema, cobrindo desde fundamentos de redes até segurança da informação, ataques, criptografia e testes de intrusão.
+
+## 🏆 Resultado
+
+| Item | Valor |
+|---|---|
+| **Nota final** | 90,00 / 100,00 |
+| **Status** | ✅ Certificação concluída |
+| **Tentativas permitidas** | 2 |
+| **Tempo limite** | 3h20min |
+| **Data de envio** | Domingo, 16 de agosto de 2026 |
+| **Período de disponibilidade** | 01/03/2020 a 31/12/2050 |
+
+## 🖼️ Certificado
+
+![Certificado — Cybersecurity](certificado.png)
 
 ---
 
