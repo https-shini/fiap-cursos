@@ -20,10 +20,10 @@ Registro **histórico** da prova de certificação oficial realizada na platafor
 
 | Item | Valor |
 |---|---|
-| **Nota final** | 100,00 / 100,00 |
+| **Nota final** | 90,00 / 100,00 |
 | **Status** | ✅ Certificação concluída |
 | **Tentativas permitidas** | 2 |
-| **Tempo limite** | 1h40min |
+| **Tempo limite** | 3h20min |
 | **Data de envio** | Domingo, 16 de agosto de 2026 |
 | **Período de disponibilidade** | 01/03/2020 a 31/12/2050 |
 
