@@ -36,6 +36,7 @@ Este arquivo funciona como **catálogo de referência**: mostra o universo compl
 
 **Legenda de status:**
 - ✅ Concluído — conteúdo e certificado disponíveis neste repositório
+- 🟠 Em Andamento
 - ⚪ Não iniciado
 
 ---
@@ -96,12 +97,12 @@ Este arquivo funciona como **catálogo de referência**: mostra o universo compl
 | DevOps & Agile Culture | 60h | 5 | Integração entre desenvolvimento e operações, mudança constante, estabilidade e cultura ágil nas empresas. | ⚪ |
 | Engenharia de Software | 100h | 9 | Técnicas para as diferentes fases do desenvolvimento de software, com foco em qualidade, controle e gestão. | ⚪ |
 | Inteligência Artificial e Computacional | 80h | 8 | Fundamentos de IA, sistemas especialistas e práticas de Machine Learning, simulando raciocínio humano. | ⚪ |
-| Java Development | 60h | 6 | Desenvolvimento em Java com abordagem prática e direta. | ⚪ |
+| Java Development | 60h | 6 | Desenvolvimento em Java com abordagem prática e direta. | 🟠 |
 | Java Fundamentos | 60h | 7 | Introdução à linguagem Java (multiplataforma) desde o início, para computadores, celulares e outros dispositivos. | ⚪ |
 | Learn to Program | 60h | 6 | Introdução à programação como habilidade prática, aplicada a situações do mundo real. | ⚪ |
 | **Linux Fundamentos** | 40h | 3 | Fundamentos do sistema operacional Linux: terminal, comandos essenciais, administração e recursos avançados. | ✅ |
 | Python | 80h | 8 | Introdução à linguagem Python, com foco em facilidade para iniciantes e nos principais recursos da linguagem. | ⚪ |
-| Python Development | 80h | 6 | Desenvolvimento em Python de maneira prática e objetiva. | ⚪ |
+| Python Development | 80h | 6 | Desenvolvimento em Python de maneira prática e objetiva. | 🟠 |
 
 **Subtotal Development:** 11 cursos · 760h · 78 capítulos
 
@@ -134,7 +135,7 @@ Este arquivo funciona como **catálogo de referência**: mostra o universo compl
 
 | Curso | Horas | Capítulos | Resumo | Status |
 |---|:---:|:---:|---|:---:|
-| Cybersecurity | 120h | 11 | Segurança cibernética e proteção de sistemas contra vulnerabilidades, diante do crescimento de ameaças e ataques. | ⚪ |
+| Cybersecurity | 120h | 11 | Segurança cibernética e proteção de sistemas contra vulnerabilidades, diante do crescimento de ameaças e ataques. | 🟠 |
 
 **Subtotal Security:** 1 curso · 120h · 11 capítulos
 
@@ -163,3 +164,4 @@ Este arquivo funciona como **catálogo de referência**: mostra o universo compl
 ---
 
 <p align="center"><i>Catálogo de referência dos Nano Courses gratuitos da FIAP ON, organizado por categoria oficial da plataforma para consulta rápida durante o planejamento da trilha de estudos.</i></p>
+****
