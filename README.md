@@ -83,7 +83,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 
 | Curso | Artefato de portfólio |
 |---|---|
-| [Python Development](Python-Development/README.md) | Script/CLI ou mini-API que resolva um problema real próprio. |
+| [Python Development](python-development/README.md) | Script/CLI ou mini-API que resolva um problema real próprio. |
 | Python | Segundo projeto prático explorando recursos diferentes do Development (ex.: manipulação de dados, testes). |
 | Learn to Program | Coleção de exercícios de lógica resolvidos, publicada como repositório de estudo. |
 
@@ -92,7 +92,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 | Curso | Artefato de portfólio |
 |---|---|
 | Engenharia de Software | Documentar um projeto existente (ex.: Portal-Receitas) com requisitos e diagramas. |
-| [**Linux Fundamentos**](Linux-Fundamentos/README.md) ✅ | Este repositório: conteúdo consolidado por aula + exercícios + questionário + certificado. |
+| [**Linux Fundamentos**](linux-fundamentos/README.md) ✅ | Este repositório: conteúdo consolidado por aula + exercícios + questionário + certificado. |
 | Gestão de Infraestrutura de TI | Runbook/checklist de infraestrutura aplicado a um ambiente pessoal (home lab, VPS), publicado. |
 
 #### DevOps, Cloud e Segurança
@@ -101,7 +101,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 |---|---|
 | DevOps & Agile Culture | Pipeline CI/CD simples (GitHub Actions) documentado em repositório. |
 | Cloud Fundamentals, Administration and Solution Architect | Deploy de um projeto próprio numa cloud gratuita, com post curto explicando o processo. |
-| [Cybersecurity](Cybersecurity/README.md) | Resumo/anotação pública (LinkedIn ou blog) sobre boas práticas aplicadas. |
+| [Cybersecurity](cybersecurity/README.md) ✅ | Resumo/anotação pública (LinkedIn ou blog) sobre boas práticas aplicadas. |
 
 > `Java Development` não integra as Fases 1–3 priorizadas, mas já tem estrutura criada por já possuir material oficial baixado.
 
