@@ -1,4 +1,4 @@
-<h1 align="center">🎓 FIAP Cursos</h1>
+<h1 align="center">🎓 FIAP Cursos Gratuitos</h1>
 
 <p align="center">
   <a href="#-sobre-o-repositório">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
