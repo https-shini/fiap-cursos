@@ -85,7 +85,7 @@ Certificado sozinho não vira portfólio. Esta tabela cobre apenas os **9 cursos
 
 Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prioridade estratégica e o maior interesse pessoal. Por isso, receberão atenção especial: serão documentados em detalhe e estudados antes dos demais.
 
-#### Fase 1 — Fundamentos de programação
+#### Fundamentos de programação
 
 | Curso | Artefato de portfólio |
 |---|---|
@@ -93,7 +93,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 | Python | Segundo projeto prático explorando recursos diferentes do Development (ex.: manipulação de dados, testes). |
 | Learn to Program | Coleção de exercícios de lógica resolvidos, publicada como repositório de estudo. |
 
-#### Fase 2 — Engenharia e infraestrutura
+#### Engenharia e infraestrutura
 
 | Curso | Artefato de portfólio |
 |---|---|
@@ -101,7 +101,7 @@ Esses 9 cursos foram escolhidos por representarem, ao mesmo tempo, a maior prior
 | **Linux Fundamentos** ✅ | Este repositório: resumo consolidado + gabarito comentado + certificado. |
 | Gestão de Infraestrutura de TI | Runbook/checklist de infraestrutura aplicado a um ambiente pessoal (home lab, VPS), publicado. |
 
-#### Fase 3 — DevOps, Cloud e Segurança
+#### DevOps, Cloud e Segurança
 
 | Curso | Artefato de portfólio |
 |---|---|
